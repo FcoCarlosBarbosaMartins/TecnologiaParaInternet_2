@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loja Virtual</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"/></script>
+	<style type="text/css">
+		
+		li.produtos
+		{
+			width: 250px;
+			display: inline-block;
+			padding-right: 20px;
+		}
+		.compra
+		{
+			display: block;
+		}
+	</style>
+
+	<script>
+		$(document).ready(function()
+		{
+			$("button").on('Click',function()
+			{
+				var txt = $("<p>Produto Comprado!</p>");
+				$(this).closest(".produto").append(txt);
+				$(this).remove();
+			});
+		});
+
+	</script>
+
+</head>
+
+<body>
+
+	<div>
+		<h1 style="text-align: center;">PRODUTOS</h1>
+
+		<ul>
+			<li class="produto">
+			<img src="https://media.giphy.com/media/d3MLdIYIHup9Q2xG/giphy.gif">
+			<h2 id=dt>NoteBook</h2>
+			<p id="detalhes">NoteBook Core I3, Tela 17 polegada, 8G, 1Tb</p>
+			<span class="preco">R$ 3.200,00</span>
+			<button class="compra">Comprar</button>
+			</li>
+
+			<li class="produto">
+			<img src="https://media.giphy.com/media/NEKJzG4MCs51K/giphy.gif">
+			<h2 id=dt>Celular</h2>
+			<p id="detalhes">SmartPhone Samsung S8 plus, 4G, 128Gb, Tela 5.8</p>
+			<span class="preco">R$ 3.100,00</span>
+			<button class="compra">Comprar</button>
+			</li>
+
+			<li class="produto">
+			<img src="https://media.giphy.com/media/XhT868oxljs88/giphy.gif">
+			<h2 id=dt>Televisao</h2>
+			<p id="detalhes">Televisao HDTv, 8k</p>
+			<span class="preco">R$ 4.100,00</span>
+			<button class="compra">Comprar</button>
+			</li>
+		</ul>
+	</div>
+
+</body>
+
+</html>

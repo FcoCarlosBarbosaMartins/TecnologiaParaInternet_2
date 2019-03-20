@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<!--https://getbootstrap.com.br/docs/3.3/css/? - Link para pesquisar -->
+<html>
+<head>
+	<title>Nossa Primeira Pagina com BootStrapt</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device=width, initial-scala=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	<src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></>
+	<src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></>
+</head>
+<header class="jumbotron text-center">
+	<h1>Bem Vindo a Nossa Pagina</h1>
+</header>
+
+<!--Corpo da Pagina -->	
+<body>
+	
+	<div class="container-fluid">
+      <div class="text-center">
+	    <p>Menu Horizontal</p>
+	  </div>
+   </div>
+
+   
+   <!--Coluna Esquerda-->
+   <div class="row container">
+    <div class="col-sm-3" style="background-color:lavender;">Menu Iniciar
+    	<div>
+	    <p><a href="">Produtos   </a></p>
+		<p><a href="">Serviços   </a></p>
+		<p><a href="">Sobre Nos  </a></p>
+	  </div>
+    </div>
+    <!--Fim da Coluna Esquerda -->
+    
+    <!--Centro-->
+    <div class="col-sm-6 text-center" style="background-color:lavenderblush;">Informacoes
+    	<p>
+	  		Informacao a ser Inserida
+	  		asjfjskjfksdjfklsajfkjsdfkljslajfsdjfdksjfds
+	  		fjdskajfsjfklsjadfjdsfjdsakljfklsjfjsfjsdalkdfjklsdjflksda
+	  		fsafjsfjslkjfklsajflkjslfkjskljfklsjakfjaskljfklsjkajfkfja
+	  		fdsajfksajfksjfkljsdkfjskajfklsjfkljsakljfklsjafkjasfsafj
+	  		fsajfsjafkjsdkfjskaljfklsjfksjakfjkslajfsajfklsjdfklssjaf
+	  		fasfjsajflkdsjfkjskljflkajslkjfkldsjaklfjslfjlskjfksjfsksf
+	  	</p>
+    </div>
+    <!--Fim do Centro-->
+
+    <!--Direito -->
+    <div class="col-sm-3" style="background-color:lavender;">Menu Direito
+    	<div>
+    	<div class="col-sm-2" style="background-color:lavender;">
+	    <p><a href="">Produtos   </a></p>
+		<p><a href="">Serviços   </a></p>
+		<p><a href="">Sobre Nos  </a></p>
+	  </div>
+    </div>
+	</div>
+</div>
+
+</body>
+<!--Fim do Corpo da Pagina -->	
+</html>

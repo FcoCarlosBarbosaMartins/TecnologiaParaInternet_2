@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Primeira Pagina usando Bootstrap</h1>
+  <p> W3cSchool</p> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Menu Iniciar</h3>
+      <div class="row container">
+      
+        <div>
+          <p><a href="">Produtos   </a></p>
+          <p><a href="">Serviços   </a></p>
+          <p><a href="">Sobre Nos  </a></p>
+        </div>
+      </div>
+
+      <!--
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      -->
+    </div>
+    <div class="col-sm-4">
+      <h3>Informacoes</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Menu da Direita</h3>
+      <div class="row container">
+      
+        <div>
+          <p><a href="">Produtos   </a></p>
+          <p><a href="">Serviços   </a></p>
+          <p><a href="">Sobre Nos  </a></p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
